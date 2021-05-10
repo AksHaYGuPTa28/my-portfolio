@@ -5,8 +5,7 @@
 
 <br/>
 
-
-## Built With
+## Technology Stack
 
 My personal portfolio <a href="http://akshay-dev.tech/" target="_blank">akshay-dev.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
@@ -16,12 +15,6 @@ This project was built using these technologies.
 - CSS3
 - VsCode
 - Vercel
-
-## Features
-
-**📖 Multi-Page Layout**
-
-**📱 Fully Responsive**
 
 ## Getting Started
 
