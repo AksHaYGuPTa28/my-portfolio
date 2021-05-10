@@ -79,8 +79,12 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item className="fork-btn">
-              <Button href="" target="_blank" className="fork-btn-inner">
-                <i className="fas fa-code-branch"></i>{" "}
+              <Button
+                href="https://github.com/AksHaYGuPTa28/my-portfolio"
+                target="_blank"
+                className="fork-btn-inner"
+              >
+                <i className="fas fa-code-branch"></i>
                 <i className="far fa-star"></i>
               </Button>
             </Nav.Item>
