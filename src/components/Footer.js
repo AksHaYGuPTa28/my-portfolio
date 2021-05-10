@@ -20,6 +20,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://github.com/AksHaYGuPTa28"
+                target="_blank"
                 style={{ color: "white" }}
               >
                 <i className="fab fa-github"></i>
@@ -28,6 +29,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.facebook.com/akshay.gupta.921025/"
+                target="_blank"
                 style={{ color: "white" }}
               >
                 <i className="fab fa-facebook"></i>
@@ -36,6 +38,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/akshay-gupta-7a433a122/"
+                target="_blank"
                 style={{ color: "white" }}
               >
                 <i className="fab fa-linkedin-in"></i>
@@ -44,6 +47,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.instagram.com/akkki__gupta/"
+                target="_blank"
                 style={{ color: "white" }}
               >
                 <i className="fab fa-instagram"></i>
