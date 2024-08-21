@@ -40,6 +40,7 @@ function About() {
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
           <Techstack iconName="devicon-javascript-plain " />
+          <Techstack iconName="devicon-typescript-plain"/>
           <Techstack iconName="devicon-react-original-wordmark" />
           <Techstack iconName="devicon-git-plain-wordmark" />
           <Techstack iconName="devicon-css3-plain-wordmark" />

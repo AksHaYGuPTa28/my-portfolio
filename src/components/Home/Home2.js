@@ -15,31 +15,23 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I love programming and I have learned the latest programming
-              skills on my own.
+              I am passionate about programming and have continuously upgraded my skills by learning the latest technologies on my own.
               <br />
-              <br />I am fluent in classics like
+              <br />With 4 years of experience, I am proficient in foundational technologies such as
               <i>
                 <b className="purple">
-                  {" "}
-                  Javascript, React.js, Bootstrap, Github, AdobeXd{" "}
+                  Javascript, React.js, Typescript, Bootstrap, Github, AdobeXd
                 </b>
               </i>
               <br />
               <br />
-              My current focus is on &nbsp;
+              I have created two products from scratch as &nbsp;
               <i>
                 <b className="purple">
-                  Frontend Development and learning Backend Development.
-                </b>
+                  Founding Engineer and Lead Frontend Developer.                </b>
               </i>
               <br />
               <br />
-              Currently, I am applying my passion for developing freelance
-              project with
-              <i>
-                <b className="purple">Videtorrium</b>
-              </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -63,16 +55,6 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <i className="fab fa-github"></i>
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.facebook.com/akshay.gupta.921025/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <i className="fab fa-facebook"></i>
                 </a>
               </li>
               <li className="social-icons">

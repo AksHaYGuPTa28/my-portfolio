@@ -6,11 +6,11 @@ import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Videtorrium from "../../Assets/Projects/Videtorrium.JPG";
-import OP from "../../Assets/Projects/OP.JPG";
-import Photographer from "../../Assets/Projects/Photographer.JPG";
-import Divya from "../../Assets/Projects/Divya.JPG";
 import Unlock from "../../Assets/Projects/Unlock.JPG";
-
+import GrowYourPaisa from "../../Assets/Projects/growyourpaisa.png"
+import Loopin from "../../Assets/Projects/loopin.jpg";
+import Touchstone from "../../Assets/Projects/touchstone.png";
+import Research from "../../Assets/Projects/kmeans.jpg";
 
 function Projects() {
   return (
@@ -24,6 +24,34 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Touchstone}
+              isBlog={false}
+              title="Touchstone - Teleco Cloud Testing Suite"
+              description="Touchstone, stands as a remarkable offering, serving as an invaluable tool for NFVI benchmarking, certification, and validation. I migrated complete project from very older version of Angular to React."
+              link="https://voereir.com/touchstone"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={GrowYourPaisa}
+              isBlog={false}
+              title="Grow Your Paisa"
+              description="I created Grow Your Paisa, a user-friendly platform for managing finances and exploring investment opportunities. Users can set financial goals and make informed decisions about their money. With Grow Your Paisa, taking control of your financial future is simple and accessible."
+              link="https://www.growyourpaisa.in/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Loopin}
+              isBlog={false}
+              title="Loopin"
+              description="Loopin is a calendar-based productivity platform that transforms your calendar into a centralized workspace for managing your day."
+              link="https://www.linkedin.com/company/loopinhq/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Videtorrium}
@@ -44,58 +72,20 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Divya}
-              isBlog={false}
-              title="Astrology Website"
-              description="This is a fully functional astrology portal created for astrologer A.R. Bamola in which user can check their daily horoscope and check the other services provided by A.R. Bamola. I created this website from scratch using Bootstrap and Javascript."
-              link="http://divyadishadarshan.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={OP}
-              isBlog={false}
-              title="OP Gamer - Social Media Paradise for gamers"
-              description="This website is like a social media platform for all gamers to share their views on the latest gaming news and the latest game launch. I developed the frontend for this website in Bootstrap, Javascript."
-              link="https://akshaygupta28.github.io/OPgamer.github.io/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Photographer}
-              isBlog={false}
-              title="Portfolio Website for photographers"
-              description="This was my first web project in basic Bootstrap and Javascript which I had built for a photographer, where he could showcase his photography work and manage his portfolio ."
-              link="https://akshaygupta28.github.io/Photographer/"
-            />
-          </Col>
         </Row>
-        {/* <h1 className="project-heading">
-          My Recent <strong className="purple">Blog </strong> Posts
+        <h1 className="project-heading">
+          My <strong className="purple">Research Paper </strong>
         </h1>
-        <p style={{ color: "white" }}>Do give a read to some of my blogs</p>
         <Row style={{ justifyContent: "center" }}>
           <Col md={4} className="blog-card">
             <BlogCard
-              imgPath={algo}
-              link=""
-              title="Cracking Interview"
-              site="gitbook.com"
+              imgPath={Research}
+              link="https://journal.ijresm.com/index.php/ijresm/article/view/707"
+              title="K-Means Clustering Algorithm"
+              site=""
             />
           </Col>
-          <Col md={4} className="blog-card">
-            <BlogCard
-              imgPath={plant}
-              link="https://medium.com/jovianml/plant-ai-c8fc95ed90e6"
-              title="Plant AI"
-              site="medium.com"
-            />
-          </Col>
-        </Row> */}
+        </Row>
       </Container>
     </Container>
   );

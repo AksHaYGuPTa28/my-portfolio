@@ -11,22 +11,21 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Akshay Gupta </span>
             from <span className="purple"> Delhi, India.</span>
-            <br />I am pursuing B.Tech in Computer Science and Engineering from
-            Krishna Engineering College.
+            <br />I have nearly 4 years of development experience and have previously built products from scratch in the telecom and productivity domains.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from working, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
               <i className="far fa-hand-point-right"></i> Playing and Watching
-              Cricket
+              Sports
             </li>
             <li className="about-activity">
               <i className="far fa-hand-point-right"></i> Listening Music
             </li>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> Excursion
+              <i className="far fa-hand-point-right"></i> Travel
             </li>
           </ul>
         </blockquote>
